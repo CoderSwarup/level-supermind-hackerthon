@@ -1,0 +1,1694 @@
+[
+    {
+        "ID": "433fc052-f6aa-4e80-b494-d1a19a7916c0",
+        "DATE": "2024-05-07",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3254,
+        "SHARE": 904,
+        "COMMENTS": 313,
+        "ENGAGEMENT": 4471
+    },
+    {
+        "ID": "3b4b947e-2309-41de-a9c5-4af4a547c75b",
+        "DATE": "2024-03-20",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1565,
+        "SHARE": 379,
+        "COMMENTS": 332,
+        "ENGAGEMENT": 2276
+    },
+    {
+        "ID": "a410d45d-b76d-47fa-b1ad-18715e85e57f",
+        "DATE": "2024-11-24",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4086,
+        "SHARE": 996,
+        "COMMENTS": 198,
+        "ENGAGEMENT": 5280
+    },
+    {
+        "ID": "fcc6384d-3bc7-4b82-aed0-ad3849922286",
+        "DATE": "2024-11-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1539,
+        "SHARE": 731,
+        "COMMENTS": 64,
+        "ENGAGEMENT": 2334
+    },
+    {
+        "ID": "94641e3d-0382-42ff-8fae-0ef5bc0c641a",
+        "DATE": "2024-09-13",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3808,
+        "SHARE": 146,
+        "COMMENTS": 121,
+        "ENGAGEMENT": 4075
+    },
+    {
+        "ID": "00a5cf97-79c4-4722-a91f-264cc2e9d8d8",
+        "DATE": "2024-04-30",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3909,
+        "SHARE": 436,
+        "COMMENTS": 256,
+        "ENGAGEMENT": 4601
+    },
+    {
+        "ID": "53cd0b33-9aad-48be-8be4-e4f0c4037458",
+        "DATE": "2024-05-17",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3015,
+        "SHARE": 34,
+        "COMMENTS": 132,
+        "ENGAGEMENT": 3181
+    },
+    {
+        "ID": "fdbdcc3e-11d4-4409-8bf3-684a6e4a99be",
+        "DATE": "2024-01-23",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1800,
+        "SHARE": 830,
+        "COMMENTS": 331,
+        "ENGAGEMENT": 2961
+    },
+    {
+        "ID": "e9d1b665-c8e1-42e5-8af6-eb93659eabcd",
+        "DATE": "2024-04-26",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2602,
+        "SHARE": 173,
+        "COMMENTS": 3,
+        "ENGAGEMENT": 2778
+    },
+    {
+        "ID": "93cac00f-4b43-4cae-b88a-d20946c03c87",
+        "DATE": "2024-06-06",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3769,
+        "SHARE": 498,
+        "COMMENTS": 22,
+        "ENGAGEMENT": 4289
+    },
+    {
+        "ID": "960b7705-4978-43c0-b529-5ce07eab728e",
+        "DATE": "2024-09-20",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4900,
+        "SHARE": 280,
+        "COMMENTS": 395,
+        "ENGAGEMENT": 5575
+    },
+    {
+        "ID": "278c8147-04c2-47a0-8175-2216bd0654ab",
+        "DATE": "2024-09-19",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4143,
+        "SHARE": 665,
+        "COMMENTS": 115,
+        "ENGAGEMENT": 4923
+    },
+    {
+        "ID": "e859e9e4-75de-4299-9c1d-50165e2889bf",
+        "DATE": "2024-08-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4226,
+        "SHARE": 832,
+        "COMMENTS": 175,
+        "ENGAGEMENT": 5233
+    },
+    {
+        "ID": "cd4e1dbb-a7da-443a-8c12-d787d9fe7f2a",
+        "DATE": "2024-05-23",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 958,
+        "SHARE": 302,
+        "COMMENTS": 34,
+        "ENGAGEMENT": 1294
+    },
+    {
+        "ID": "c892b6d7-d165-477f-9320-997d69cf86c5",
+        "DATE": "2024-12-22",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 849,
+        "SHARE": 355,
+        "COMMENTS": 354,
+        "ENGAGEMENT": 1558
+    },
+    {
+        "ID": "c08779ca-e800-47a3-9393-25d28d0c8e57",
+        "DATE": "2024-06-14",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1411,
+        "SHARE": 932,
+        "COMMENTS": 192,
+        "ENGAGEMENT": 2535
+    },
+    {
+        "ID": "709b89af-ecec-4abc-8a92-9e9c8839c7dd",
+        "DATE": "2024-06-02",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3419,
+        "SHARE": 895,
+        "COMMENTS": 248,
+        "ENGAGEMENT": 4562
+    },
+    {
+        "ID": "29abeb84-da0c-4acb-8ac8-ee6033902e36",
+        "DATE": "2024-11-21",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 530,
+        "SHARE": 588,
+        "COMMENTS": 38,
+        "ENGAGEMENT": 1156
+    },
+    {
+        "ID": "c293e303-94ab-43fb-8f99-4d3b593d1972",
+        "DATE": "2025-01-02",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4039,
+        "SHARE": 617,
+        "COMMENTS": 225,
+        "ENGAGEMENT": 4881
+    },
+    {
+        "ID": "88520705-013d-4fee-b5f3-69fa4961e20e",
+        "DATE": "2024-06-13",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3096,
+        "SHARE": 546,
+        "COMMENTS": 70,
+        "ENGAGEMENT": 3712
+    },
+    {
+        "ID": "fb39b7b8-4f87-4abd-93e1-995da24ca165",
+        "DATE": "2024-12-14",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1474,
+        "SHARE": 710,
+        "COMMENTS": 356,
+        "ENGAGEMENT": 2540
+    },
+    {
+        "ID": "19870da2-dc99-489d-9055-4e286c7713b6",
+        "DATE": "2024-04-08",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1361,
+        "SHARE": 56,
+        "COMMENTS": 253,
+        "ENGAGEMENT": 1670
+    },
+    {
+        "ID": "fed15d43-bbc6-49ab-a469-cddf9649d6c5",
+        "DATE": "2024-06-01",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 543,
+        "SHARE": 73,
+        "COMMENTS": 294,
+        "ENGAGEMENT": 910
+    },
+    {
+        "ID": "1177744d-e811-4bd1-909b-4265a97163a4",
+        "DATE": "2024-07-13",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4980,
+        "SHARE": 282,
+        "COMMENTS": 405,
+        "ENGAGEMENT": 5667
+    },
+    {
+        "ID": "944ab130-e364-475a-a475-f2e1e573bc54",
+        "DATE": "2024-02-11",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3112,
+        "SHARE": 761,
+        "COMMENTS": 301,
+        "ENGAGEMENT": 4174
+    },
+    {
+        "ID": "c87720a7-faaa-4d80-a414-d7b0fdcf383f",
+        "DATE": "2024-01-14",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1990,
+        "SHARE": 847,
+        "COMMENTS": 229,
+        "ENGAGEMENT": 3066
+    },
+    {
+        "ID": "c9069541-25aa-4aa9-9ed4-c8bf4663e9f8",
+        "DATE": "2024-11-10",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2751,
+        "SHARE": 369,
+        "COMMENTS": 21,
+        "ENGAGEMENT": 3141
+    },
+    {
+        "ID": "95bc3126-31dc-4263-b8a0-59e9692ca9ba",
+        "DATE": "2024-05-02",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2715,
+        "SHARE": 261,
+        "COMMENTS": 78,
+        "ENGAGEMENT": 3054
+    },
+    {
+        "ID": "5cf3528c-d736-4a65-878c-67d31b0c7f62",
+        "DATE": "2024-05-10",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1905,
+        "SHARE": 488,
+        "COMMENTS": 471,
+        "ENGAGEMENT": 2864
+    },
+    {
+        "ID": "2dcb4497-6749-49b2-81bd-c865b3f31180",
+        "DATE": "2024-08-20",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3031,
+        "SHARE": 360,
+        "COMMENTS": 21,
+        "ENGAGEMENT": 3412
+    },
+    {
+        "ID": "f15f2cd4-d913-4345-bb55-b9b8571a9e91",
+        "DATE": "2024-05-17",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 961,
+        "SHARE": 592,
+        "COMMENTS": 447,
+        "ENGAGEMENT": 2000
+    },
+    {
+        "ID": "6d01e0a0-1be8-4e77-bb80-1444c0574566",
+        "DATE": "2024-01-30",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2230,
+        "SHARE": 503,
+        "COMMENTS": 302,
+        "ENGAGEMENT": 3035
+    },
+    {
+        "ID": "a93dd995-1fd0-4aa2-9399-a01ddcd61575",
+        "DATE": "2024-11-30",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 367,
+        "SHARE": 52,
+        "COMMENTS": 438,
+        "ENGAGEMENT": 857
+    },
+    {
+        "ID": "9f57d354-3f49-48d9-84f5-7be0fe0fe14d",
+        "DATE": "2024-04-14",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4131,
+        "SHARE": 962,
+        "COMMENTS": 382,
+        "ENGAGEMENT": 5475
+    },
+    {
+        "ID": "e207a114-f3af-4283-a111-01131ab4d57c",
+        "DATE": "2024-05-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1409,
+        "SHARE": 553,
+        "COMMENTS": 61,
+        "ENGAGEMENT": 2023
+    },
+    {
+        "ID": "8be07cfd-f681-4bd7-bdc3-95bd17b28a11",
+        "DATE": "2024-08-04",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 987,
+        "SHARE": 761,
+        "COMMENTS": 116,
+        "ENGAGEMENT": 1864
+    },
+    {
+        "ID": "417cc55d-01cd-4139-b209-1b3b8b9856fc",
+        "DATE": "2024-10-26",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1637,
+        "SHARE": 916,
+        "COMMENTS": 342,
+        "ENGAGEMENT": 2895
+    },
+    {
+        "ID": "b684a917-8956-432d-8da1-60845ff7a2a1",
+        "DATE": "2024-08-05",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3888,
+        "SHARE": 346,
+        "COMMENTS": 115,
+        "ENGAGEMENT": 4349
+    },
+    {
+        "ID": "ace2dacc-bc34-45bd-8612-58f546681571",
+        "DATE": "2024-10-26",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 2069,
+        "SHARE": 459,
+        "COMMENTS": 191,
+        "ENGAGEMENT": 2719
+    },
+    {
+        "ID": "5d68928b-d049-454a-98c9-fc7eb61cd817",
+        "DATE": "2024-04-26",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 807,
+        "SHARE": 912,
+        "COMMENTS": 393,
+        "ENGAGEMENT": 2112
+    },
+    {
+        "ID": "d3fc4425-9ce1-496e-8afd-703270883fb1",
+        "DATE": "2024-11-12",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4048,
+        "SHARE": 308,
+        "COMMENTS": 441,
+        "ENGAGEMENT": 4797
+    },
+    {
+        "ID": "a390a8f8-7e1e-4837-a02c-7f0aa55347a2",
+        "DATE": "2024-04-05",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3687,
+        "SHARE": 525,
+        "COMMENTS": 400,
+        "ENGAGEMENT": 4612
+    },
+    {
+        "ID": "6d41a2b1-4f81-4c7c-ad41-73136993a42c",
+        "DATE": "2024-07-22",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1409,
+        "SHARE": 318,
+        "COMMENTS": 498,
+        "ENGAGEMENT": 2225
+    },
+    {
+        "ID": "a5041d59-4520-463d-86cb-d662679a6468",
+        "DATE": "2024-07-26",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 854,
+        "SHARE": 266,
+        "COMMENTS": 474,
+        "ENGAGEMENT": 1594
+    },
+    {
+        "ID": "360a8d60-3528-495d-b6a9-079e3781c71a",
+        "DATE": "2024-08-02",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2664,
+        "SHARE": 356,
+        "COMMENTS": 246,
+        "ENGAGEMENT": 3266
+    },
+    {
+        "ID": "7552eca0-d042-4cbf-998c-a0d510a3e35b",
+        "DATE": "2025-01-03",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1719,
+        "SHARE": 618,
+        "COMMENTS": 76,
+        "ENGAGEMENT": 2413
+    },
+    {
+        "ID": "78c35314-c895-4f92-b79f-af94466cb393",
+        "DATE": "2024-08-31",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3686,
+        "SHARE": 427,
+        "COMMENTS": 187,
+        "ENGAGEMENT": 4300
+    },
+    {
+        "ID": "f0f4bbd4-c3b9-4659-bcec-89aa31ef391e",
+        "DATE": "2024-05-11",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 3560,
+        "SHARE": 812,
+        "COMMENTS": 454,
+        "ENGAGEMENT": 4826
+    },
+    {
+        "ID": "05261e39-a283-4d59-9f3e-08ffe78a2e66",
+        "DATE": "2024-07-22",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1224,
+        "SHARE": 255,
+        "COMMENTS": 124,
+        "ENGAGEMENT": 1603
+    },
+    {
+        "ID": "c722bbcf-184f-4fc8-9a9e-0091f3ffa171",
+        "DATE": "2024-07-14",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3914,
+        "SHARE": 830,
+        "COMMENTS": 17,
+        "ENGAGEMENT": 4761
+    },
+    {
+        "ID": "e5fdd415-d98a-4ff1-96c1-35e6af5b609f",
+        "DATE": "2024-06-24",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 243,
+        "SHARE": 165,
+        "COMMENTS": 423,
+        "ENGAGEMENT": 831
+    },
+    {
+        "ID": "53ca6791-ca5f-4889-8e13-7489c1869397",
+        "DATE": "2024-07-16",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4117,
+        "SHARE": 564,
+        "COMMENTS": 475,
+        "ENGAGEMENT": 5156
+    },
+    {
+        "ID": "7b78aca0-1e3e-419e-bbbc-de1c94cc3f9a",
+        "DATE": "2024-03-09",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 63,
+        "SHARE": 763,
+        "COMMENTS": 28,
+        "ENGAGEMENT": 854
+    },
+    {
+        "ID": "7669f39f-7b20-4c0a-8c4b-13ca2826da29",
+        "DATE": "2024-08-12",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1996,
+        "SHARE": 656,
+        "COMMENTS": 56,
+        "ENGAGEMENT": 2708
+    },
+    {
+        "ID": "920e4cd4-afab-4240-91d0-41c99ee6947b",
+        "DATE": "2024-10-07",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1435,
+        "SHARE": 629,
+        "COMMENTS": 22,
+        "ENGAGEMENT": 2086
+    },
+    {
+        "ID": "7cc2d7e8-bcb2-443c-a911-cbdd76bc48b7",
+        "DATE": "2024-02-23",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1329,
+        "SHARE": 71,
+        "COMMENTS": 420,
+        "ENGAGEMENT": 1820
+    },
+    {
+        "ID": "c68d6793-52ab-449b-939d-e26e5fb20556",
+        "DATE": "2024-11-25",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1351,
+        "SHARE": 6,
+        "COMMENTS": 343,
+        "ENGAGEMENT": 1700
+    },
+    {
+        "ID": "4dee6b60-6662-4bbf-b733-89ff5b969165",
+        "DATE": "2024-06-10",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4304,
+        "SHARE": 185,
+        "COMMENTS": 217,
+        "ENGAGEMENT": 4706
+    },
+    {
+        "ID": "05443be4-8f6a-496b-b91e-c5a71db57664",
+        "DATE": "2024-02-04",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4656,
+        "SHARE": 49,
+        "COMMENTS": 351,
+        "ENGAGEMENT": 5056
+    },
+    {
+        "ID": "ae036105-0cb2-4875-8ccb-63754536ccfa",
+        "DATE": "2024-05-29",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4113,
+        "SHARE": 149,
+        "COMMENTS": 358,
+        "ENGAGEMENT": 4620
+    },
+    {
+        "ID": "c16c4e96-2b12-4675-bef2-7f000d0391a2",
+        "DATE": "2024-01-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1100,
+        "SHARE": 193,
+        "COMMENTS": 79,
+        "ENGAGEMENT": 1372
+    },
+    {
+        "ID": "05404a1f-e76a-45b5-8c7f-22e8f68fe172",
+        "DATE": "2024-10-17",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1084,
+        "SHARE": 378,
+        "COMMENTS": 292,
+        "ENGAGEMENT": 1754
+    },
+    {
+        "ID": "b5d88f08-dd84-4714-abd8-0ed771196f14",
+        "DATE": "2024-03-25",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3737,
+        "SHARE": 927,
+        "COMMENTS": 268,
+        "ENGAGEMENT": 4932
+    },
+    {
+        "ID": "485e085c-0923-42ed-8ef0-00b210bffce2",
+        "DATE": "2024-05-11",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2877,
+        "SHARE": 736,
+        "COMMENTS": 247,
+        "ENGAGEMENT": 3860
+    },
+    {
+        "ID": "45bd5f98-7ef8-403d-a7f1-cefbd30a354f",
+        "DATE": "2024-04-22",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 75,
+        "SHARE": 558,
+        "COMMENTS": 212,
+        "ENGAGEMENT": 845
+    },
+    {
+        "ID": "bf430652-1a73-42ec-a8f1-cd2fe7ece130",
+        "DATE": "2024-08-17",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3921,
+        "SHARE": 329,
+        "COMMENTS": 471,
+        "ENGAGEMENT": 4721
+    },
+    {
+        "ID": "e10f85ed-1988-46fd-a96f-5d465a92adf7",
+        "DATE": "2024-03-25",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3492,
+        "SHARE": 937,
+        "COMMENTS": 496,
+        "ENGAGEMENT": 4925
+    },
+    {
+        "ID": "26fa99aa-d7cd-4789-8394-d92e719ee0e6",
+        "DATE": "2024-10-04",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4574,
+        "SHARE": 924,
+        "COMMENTS": 133,
+        "ENGAGEMENT": 5631
+    },
+    {
+        "ID": "41a553ac-f6d9-413b-8cdb-b5b8c0d16cc7",
+        "DATE": "2024-12-26",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3715,
+        "SHARE": 349,
+        "COMMENTS": 388,
+        "ENGAGEMENT": 4452
+    },
+    {
+        "ID": "976020a1-0f72-49f6-a206-a6b46d806554",
+        "DATE": "2024-08-24",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 712,
+        "SHARE": 717,
+        "COMMENTS": 353,
+        "ENGAGEMENT": 1782
+    },
+    {
+        "ID": "e2ba1fdb-283a-4a8e-871b-3aba8ba9f65e",
+        "DATE": "2024-07-30",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 2038,
+        "SHARE": 483,
+        "COMMENTS": 322,
+        "ENGAGEMENT": 2843
+    },
+    {
+        "ID": "a767a6da-8681-42d8-9914-62cfe37f6f88",
+        "DATE": "2024-06-20",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 668,
+        "SHARE": 626,
+        "COMMENTS": 293,
+        "ENGAGEMENT": 1587
+    },
+    {
+        "ID": "25a0fad8-7ee4-48f8-be93-8ff421f790f8",
+        "DATE": "2024-06-28",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1910,
+        "SHARE": 271,
+        "COMMENTS": 373,
+        "ENGAGEMENT": 2554
+    },
+    {
+        "ID": "70df07f9-4493-462b-93dc-eca30917330a",
+        "DATE": "2024-05-15",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1121,
+        "SHARE": 224,
+        "COMMENTS": 184,
+        "ENGAGEMENT": 1529
+    },
+    {
+        "ID": "4d5c1004-94eb-4f44-958e-efa4ef0bff68",
+        "DATE": "2024-10-18",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4485,
+        "SHARE": 253,
+        "COMMENTS": 197,
+        "ENGAGEMENT": 4935
+    },
+    {
+        "ID": "fd8cac79-38d4-4480-9071-06ec17a3b1fd",
+        "DATE": "2024-07-23",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 731,
+        "SHARE": 431,
+        "COMMENTS": 305,
+        "ENGAGEMENT": 1467
+    },
+    {
+        "ID": "c414d19e-dbd4-4a92-8c7f-fb63c51f7f87",
+        "DATE": "2024-05-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3967,
+        "SHARE": 614,
+        "COMMENTS": 291,
+        "ENGAGEMENT": 4872
+    },
+    {
+        "ID": "3dcd1357-694c-4986-bd18-eee94e64a930",
+        "DATE": "2024-02-20",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 3026,
+        "SHARE": 48,
+        "COMMENTS": 291,
+        "ENGAGEMENT": 3365
+    },
+    {
+        "ID": "b2c43b98-5dd4-40b6-8b36-dbc7b5f01440",
+        "DATE": "2024-08-09",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2275,
+        "SHARE": 803,
+        "COMMENTS": 440,
+        "ENGAGEMENT": 3518
+    },
+    {
+        "ID": "b228f1e6-8cbf-4db8-a51b-9f35a22108da",
+        "DATE": "2024-06-07",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 958,
+        "SHARE": 728,
+        "COMMENTS": 157,
+        "ENGAGEMENT": 1843
+    },
+    {
+        "ID": "8ee51b2b-8466-4963-81d5-e730ca2e0efb",
+        "DATE": "2024-02-23",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 769,
+        "SHARE": 420,
+        "COMMENTS": 68,
+        "ENGAGEMENT": 1257
+    },
+    {
+        "ID": "3cc5e8e0-c092-48d3-99a3-f5ede34b3825",
+        "DATE": "2024-03-19",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1260,
+        "SHARE": 338,
+        "COMMENTS": 124,
+        "ENGAGEMENT": 1722
+    },
+    {
+        "ID": "016cb876-d974-4d62-8387-9ebc73744951",
+        "DATE": "2024-03-28",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3794,
+        "SHARE": 782,
+        "COMMENTS": 180,
+        "ENGAGEMENT": 4756
+    },
+    {
+        "ID": "d05338c2-4ea4-4c1f-9ae3-a5e5f3cf2751",
+        "DATE": "2024-03-04",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3090,
+        "SHARE": 465,
+        "COMMENTS": 224,
+        "ENGAGEMENT": 3779
+    },
+    {
+        "ID": "4ed9e22e-9150-442a-857e-32d9cc609599",
+        "DATE": "2024-03-27",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 634,
+        "SHARE": 116,
+        "COMMENTS": 448,
+        "ENGAGEMENT": 1198
+    },
+    {
+        "ID": "f3b99cfe-06f4-4d78-a1b0-5d0d07dc96a9",
+        "DATE": "2024-01-27",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1523,
+        "SHARE": 20,
+        "COMMENTS": 500,
+        "ENGAGEMENT": 2043
+    },
+    {
+        "ID": "3093d398-c74f-4762-8fa6-d03270f1b4a3",
+        "DATE": "2024-09-26",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4309,
+        "SHARE": 583,
+        "COMMENTS": 389,
+        "ENGAGEMENT": 5281
+    },
+    {
+        "ID": "5cd3e4c5-a4ab-4d2e-a613-af1b91a87000",
+        "DATE": "2024-07-13",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 420,
+        "SHARE": 112,
+        "COMMENTS": 393,
+        "ENGAGEMENT": 925
+    },
+    {
+        "ID": "2d1cdbe0-62ea-48f8-8b20-6193a9db94d5",
+        "DATE": "2024-05-17",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3566,
+        "SHARE": 325,
+        "COMMENTS": 353,
+        "ENGAGEMENT": 4244
+    },
+    {
+        "ID": "4fc1ccdb-5778-4203-b908-298d688fb671",
+        "DATE": "2024-08-03",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3199,
+        "SHARE": 482,
+        "COMMENTS": 434,
+        "ENGAGEMENT": 4115
+    },
+    {
+        "ID": "3b4e076f-ab29-4793-9d78-e5f55c31195d",
+        "DATE": "2024-08-02",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3008,
+        "SHARE": 420,
+        "COMMENTS": 500,
+        "ENGAGEMENT": 3928
+    },
+    {
+        "ID": "c30daaad-dee1-4909-9097-332be2f542f6",
+        "DATE": "2024-09-14",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3363,
+        "SHARE": 667,
+        "COMMENTS": 479,
+        "ENGAGEMENT": 4509
+    },
+    {
+        "ID": "f95d6444-9c44-49ac-9df8-4ab694077d81",
+        "DATE": "2024-06-17",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4875,
+        "SHARE": 405,
+        "COMMENTS": 295,
+        "ENGAGEMENT": 5575
+    },
+    {
+        "ID": "d705e2fa-1a2f-4c1e-af1d-351fb530018e",
+        "DATE": "2024-03-05",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 515,
+        "SHARE": 30,
+        "COMMENTS": 140,
+        "ENGAGEMENT": 685
+    },
+    {
+        "ID": "5acc34d3-9c85-47a7-a0e5-8f592744fedf",
+        "DATE": "2024-10-01",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 828,
+        "SHARE": 877,
+        "COMMENTS": 432,
+        "ENGAGEMENT": 2137
+    },
+    {
+        "ID": "5ba0448f-9329-44fb-954d-8be8dcee711f",
+        "DATE": "2024-03-08",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4136,
+        "SHARE": 718,
+        "COMMENTS": 239,
+        "ENGAGEMENT": 5093
+    },
+    {
+        "ID": "bbb4b0aa-425c-4cfc-9838-ae3d88026779",
+        "DATE": "2024-09-04",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2424,
+        "SHARE": 583,
+        "COMMENTS": 478,
+        "ENGAGEMENT": 3485
+    },
+    {
+        "ID": "cb3cd350-f53e-4127-8c5f-6c0f7073b823",
+        "DATE": "2024-10-16",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 912,
+        "SHARE": 549,
+        "COMMENTS": 461,
+        "ENGAGEMENT": 1922
+    },
+    {
+        "ID": "74881e88-8d31-4dbd-9588-530f8a947b45",
+        "DATE": "2024-08-26",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3867,
+        "SHARE": 472,
+        "COMMENTS": 468,
+        "ENGAGEMENT": 4807
+    },
+    {
+        "ID": "2093bc06-babe-4f66-9137-bcd4831fbb6e",
+        "DATE": "2024-04-13",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1859,
+        "SHARE": 131,
+        "COMMENTS": 33,
+        "ENGAGEMENT": 2023
+    },
+    {
+        "ID": "f73371fd-ba9a-44a8-b5e9-9b366748d5fc",
+        "DATE": "2024-05-29",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3046,
+        "SHARE": 702,
+        "COMMENTS": 314,
+        "ENGAGEMENT": 4062
+    },
+    {
+        "ID": "1fa13c1d-a319-414b-86ee-bc5eb7632089",
+        "DATE": "2024-12-20",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3833,
+        "SHARE": 867,
+        "COMMENTS": 13,
+        "ENGAGEMENT": 4713
+    },
+    {
+        "ID": "b1c9ad63-5d50-4ab1-9b7b-2f6f98f0bbb5",
+        "DATE": "2024-12-04",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 425,
+        "SHARE": 58,
+        "COMMENTS": 209,
+        "ENGAGEMENT": 692
+    },
+    {
+        "ID": "6c24fbc7-b4c4-41bc-9632-9e5f648f5672",
+        "DATE": "2024-08-25",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3576,
+        "SHARE": 145,
+        "COMMENTS": 228,
+        "ENGAGEMENT": 3949
+    },
+    {
+        "ID": "3c52eba2-a4d0-4e18-ac0a-06fa85dea65a",
+        "DATE": "2024-01-22",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2020,
+        "SHARE": 635,
+        "COMMENTS": 275,
+        "ENGAGEMENT": 2930
+    },
+    {
+        "ID": "ff0793d3-cdae-498c-82ea-375b2ab193f4",
+        "DATE": "2024-11-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2176,
+        "SHARE": 771,
+        "COMMENTS": 332,
+        "ENGAGEMENT": 3279
+    },
+    {
+        "ID": "b06ad960-2560-41ef-831e-fda68ffe58fd",
+        "DATE": "2024-06-29",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2078,
+        "SHARE": 745,
+        "COMMENTS": 291,
+        "ENGAGEMENT": 3114
+    },
+    {
+        "ID": "00174b5c-b248-47b6-b1de-0154f0e63ea3",
+        "DATE": "2024-04-23",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4126,
+        "SHARE": 908,
+        "COMMENTS": 218,
+        "ENGAGEMENT": 5252
+    },
+    {
+        "ID": "10ed5d3f-7b38-41b4-a550-50f3a2f13d9b",
+        "DATE": "2024-04-27",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 2031,
+        "SHARE": 743,
+        "COMMENTS": 368,
+        "ENGAGEMENT": 3142
+    },
+    {
+        "ID": "17733ff4-3348-4c7f-9560-b0b9bfc736fc",
+        "DATE": "2024-09-15",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4971,
+        "SHARE": 852,
+        "COMMENTS": 453,
+        "ENGAGEMENT": 6276
+    },
+    {
+        "ID": "0cf0a3a4-8c4c-47bd-a69a-25e7a9a9420e",
+        "DATE": "2024-11-06",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 337,
+        "SHARE": 377,
+        "COMMENTS": 285,
+        "ENGAGEMENT": 999
+    },
+    {
+        "ID": "2d082f13-6006-4510-8804-0d026e45757c",
+        "DATE": "2024-03-26",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4006,
+        "SHARE": 763,
+        "COMMENTS": 287,
+        "ENGAGEMENT": 5056
+    },
+    {
+        "ID": "e93102e7-d4bd-460c-a989-4cd34df6d93c",
+        "DATE": "2024-07-29",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3166,
+        "SHARE": 193,
+        "COMMENTS": 392,
+        "ENGAGEMENT": 3751
+    },
+    {
+        "ID": "f6ba7e0b-fd64-4c9a-bd14-b2838dd2c2e6",
+        "DATE": "2024-12-10",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1803,
+        "SHARE": 826,
+        "COMMENTS": 347,
+        "ENGAGEMENT": 2976
+    },
+    {
+        "ID": "5220806a-9226-4571-b4d8-524527a2050e",
+        "DATE": "2024-03-07",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4527,
+        "SHARE": 748,
+        "COMMENTS": 388,
+        "ENGAGEMENT": 5663
+    },
+    {
+        "ID": "5a56246a-9a62-4e2a-a40e-26c39cf81d36",
+        "DATE": "2024-04-10",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3719,
+        "SHARE": 409,
+        "COMMENTS": 367,
+        "ENGAGEMENT": 4495
+    },
+    {
+        "ID": "f9c6c553-4eb5-4973-91ae-9cf7afcadab1",
+        "DATE": "2024-07-15",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1347,
+        "SHARE": 552,
+        "COMMENTS": 181,
+        "ENGAGEMENT": 2080
+    },
+    {
+        "ID": "3ccf477f-52a2-43c8-8619-d795073c0448",
+        "DATE": "2024-09-22",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3618,
+        "SHARE": 114,
+        "COMMENTS": 371,
+        "ENGAGEMENT": 4103
+    },
+    {
+        "ID": "20afccd7-2bae-4e75-a486-294c52e7f2ab",
+        "DATE": "2024-01-09",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4150,
+        "SHARE": 221,
+        "COMMENTS": 27,
+        "ENGAGEMENT": 4398
+    },
+    {
+        "ID": "60e9797a-1611-43b1-bffc-62cd1c360525",
+        "DATE": "2024-12-25",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 935,
+        "SHARE": 974,
+        "COMMENTS": 117,
+        "ENGAGEMENT": 2026
+    },
+    {
+        "ID": "9e1bb7c8-945c-440d-8bc7-29222f6532fb",
+        "DATE": "2024-09-16",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3385,
+        "SHARE": 872,
+        "COMMENTS": 127,
+        "ENGAGEMENT": 4384
+    },
+    {
+        "ID": "9597a16a-3eb9-4922-9079-fead39d55f9f",
+        "DATE": "2024-04-21",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1983,
+        "SHARE": 735,
+        "COMMENTS": 387,
+        "ENGAGEMENT": 3105
+    },
+    {
+        "ID": "0c0b53f6-8397-451a-bf6c-52e707c06309",
+        "DATE": "2024-09-08",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4401,
+        "SHARE": 65,
+        "COMMENTS": 96,
+        "ENGAGEMENT": 4562
+    },
+    {
+        "ID": "bc431229-10c4-438e-9a7f-0799bccfb043",
+        "DATE": "2024-02-21",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 662,
+        "SHARE": 668,
+        "COMMENTS": 52,
+        "ENGAGEMENT": 1382
+    },
+    {
+        "ID": "e2bc69cd-edb3-493b-96c8-bd6997ae35db",
+        "DATE": "2024-07-15",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3740,
+        "SHARE": 218,
+        "COMMENTS": 202,
+        "ENGAGEMENT": 4160
+    },
+    {
+        "ID": "9da28db1-b04d-47f1-912e-7e10979fc4c1",
+        "DATE": "2024-11-21",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 3756,
+        "SHARE": 420,
+        "COMMENTS": 25,
+        "ENGAGEMENT": 4201
+    },
+    {
+        "ID": "49f1f5af-dde0-4db2-8170-a9fb4b6b3752",
+        "DATE": "2024-03-27",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2696,
+        "SHARE": 747,
+        "COMMENTS": 272,
+        "ENGAGEMENT": 3715
+    },
+    {
+        "ID": "1d07388c-f4d3-453b-aab5-fd9ef655436c",
+        "DATE": "2024-04-06",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1887,
+        "SHARE": 229,
+        "COMMENTS": 297,
+        "ENGAGEMENT": 2413
+    },
+    {
+        "ID": "596d5b29-e42d-4105-a278-754444389f7d",
+        "DATE": "2024-05-04",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2210,
+        "SHARE": 761,
+        "COMMENTS": 472,
+        "ENGAGEMENT": 3443
+    },
+    {
+        "ID": "a52f995e-d550-48b7-adc6-3fff6d7ef4d8",
+        "DATE": "2024-09-04",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4868,
+        "SHARE": 934,
+        "COMMENTS": 372,
+        "ENGAGEMENT": 6174
+    },
+    {
+        "ID": "2c01a9eb-3e1a-4d30-a61c-8d23d415fbce",
+        "DATE": "2024-07-16",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 809,
+        "SHARE": 870,
+        "COMMENTS": 18,
+        "ENGAGEMENT": 1697
+    },
+    {
+        "ID": "5492c740-eadd-47e4-9a42-c3b8d12248a2",
+        "DATE": "2024-08-10",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1461,
+        "SHARE": 700,
+        "COMMENTS": 433,
+        "ENGAGEMENT": 2594
+    },
+    {
+        "ID": "b896daee-ec12-4d45-98fc-93f2e73b1d53",
+        "DATE": "2024-05-26",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4583,
+        "SHARE": 247,
+        "COMMENTS": 9,
+        "ENGAGEMENT": 4839
+    },
+    {
+        "ID": "1101eb96-5d85-4742-95ec-f0f9aa317817",
+        "DATE": "2024-12-30",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 1871,
+        "SHARE": 324,
+        "COMMENTS": 276,
+        "ENGAGEMENT": 2471
+    },
+    {
+        "ID": "69db8b01-b73d-4014-83b7-ee6d7a8b3537",
+        "DATE": "2024-11-06",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 2155,
+        "SHARE": 329,
+        "COMMENTS": 384,
+        "ENGAGEMENT": 2868
+    },
+    {
+        "ID": "ffa54282-3fb5-4b5f-b462-4399b5e2e7a1",
+        "DATE": "2024-10-03",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 399,
+        "SHARE": 632,
+        "COMMENTS": 244,
+        "ENGAGEMENT": 1275
+    },
+    {
+        "ID": "a06c14d8-19f2-44fc-972d-60390759bba3",
+        "DATE": "2024-02-21",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 832,
+        "SHARE": 480,
+        "COMMENTS": 11,
+        "ENGAGEMENT": 1323
+    },
+    {
+        "ID": "c98a4078-1d9a-4480-bda9-38d4787c7fbd",
+        "DATE": "2024-12-18",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2835,
+        "SHARE": 199,
+        "COMMENTS": 278,
+        "ENGAGEMENT": 3312
+    },
+    {
+        "ID": "eddf3a49-06c2-4680-978e-a03212036744",
+        "DATE": "2024-03-09",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 60,
+        "SHARE": 953,
+        "COMMENTS": 236,
+        "ENGAGEMENT": 1249
+    },
+    {
+        "ID": "a94db8d3-0dcc-4af8-b035-6df4d77b861d",
+        "DATE": "2024-03-29",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 688,
+        "SHARE": 557,
+        "COMMENTS": 454,
+        "ENGAGEMENT": 1699
+    },
+    {
+        "ID": "0fd0fb73-5101-40bb-a3ae-97c73cd50a55",
+        "DATE": "2024-07-24",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2900,
+        "SHARE": 26,
+        "COMMENTS": 424,
+        "ENGAGEMENT": 3350
+    },
+    {
+        "ID": "806e0cf2-68c5-4a19-8579-39c36278a2a0",
+        "DATE": "2024-01-12",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 177,
+        "SHARE": 719,
+        "COMMENTS": 73,
+        "ENGAGEMENT": 969
+    },
+    {
+        "ID": "4d037586-6e26-414a-96b3-493d4d25feb2",
+        "DATE": "2024-07-17",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 4603,
+        "SHARE": 635,
+        "COMMENTS": 263,
+        "ENGAGEMENT": 5501
+    },
+    {
+        "ID": "b644e620-f43f-499e-98ce-d41c438f8f5d",
+        "DATE": "2024-02-25",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2179,
+        "SHARE": 657,
+        "COMMENTS": 144,
+        "ENGAGEMENT": 2980
+    },
+    {
+        "ID": "16f4c658-b20c-4393-a61b-3383ffd19ed7",
+        "DATE": "2024-08-07",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 929,
+        "SHARE": 633,
+        "COMMENTS": 428,
+        "ENGAGEMENT": 1990
+    },
+    {
+        "ID": "6718b4c6-548a-4aa5-b5fd-117e1e265a57",
+        "DATE": "2024-12-05",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 680,
+        "SHARE": 182,
+        "COMMENTS": 432,
+        "ENGAGEMENT": 1294
+    },
+    {
+        "ID": "a51a9bff-9b99-48c2-8127-2489a45e33e5",
+        "DATE": "2024-03-09",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 310,
+        "SHARE": 278,
+        "COMMENTS": 284,
+        "ENGAGEMENT": 872
+    },
+    {
+        "ID": "953190da-0c16-4c58-85ca-a21685de9323",
+        "DATE": "2024-11-17",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1621,
+        "SHARE": 179,
+        "COMMENTS": 225,
+        "ENGAGEMENT": 2025
+    },
+    {
+        "ID": "3a5bb991-10d8-4a39-a74b-b09a2abe1675",
+        "DATE": "2024-10-22",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1373,
+        "SHARE": 98,
+        "COMMENTS": 484,
+        "ENGAGEMENT": 1955
+    },
+    {
+        "ID": "1e5228d5-819a-4230-993a-0010076ad1c4",
+        "DATE": "2024-09-04",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1348,
+        "SHARE": 986,
+        "COMMENTS": 472,
+        "ENGAGEMENT": 2806
+    },
+    {
+        "ID": "f9feaba4-082b-443e-80f9-c476cb4445fb",
+        "DATE": "2024-08-10",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 3708,
+        "SHARE": 473,
+        "COMMENTS": 54,
+        "ENGAGEMENT": 4235
+    },
+    {
+        "ID": "ded1ca46-a22b-438b-a2c7-33e00d56a89f",
+        "DATE": "2024-06-10",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 230,
+        "SHARE": 687,
+        "COMMENTS": 199,
+        "ENGAGEMENT": 1116
+    },
+    {
+        "ID": "39136da3-31e3-4419-b15c-0c62c5248256",
+        "DATE": "2024-11-27",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2451,
+        "SHARE": 929,
+        "COMMENTS": 485,
+        "ENGAGEMENT": 3865
+    },
+    {
+        "ID": "ff239180-1f6e-4899-bab5-afc8d87b08bc",
+        "DATE": "2024-04-30",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1847,
+        "SHARE": 784,
+        "COMMENTS": 303,
+        "ENGAGEMENT": 2934
+    },
+    {
+        "ID": "a641056e-9ffb-4e4d-9148-dc16f8027366",
+        "DATE": "2024-11-29",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2691,
+        "SHARE": 710,
+        "COMMENTS": 337,
+        "ENGAGEMENT": 3738
+    },
+    {
+        "ID": "b63d3adc-9f27-4b2b-b014-090223d957de",
+        "DATE": "2024-04-18",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 2028,
+        "SHARE": 311,
+        "COMMENTS": 50,
+        "ENGAGEMENT": 2389
+    },
+    {
+        "ID": "4c6d64bb-1bd5-47fb-bfaf-d5318006b2b2",
+        "DATE": "2024-06-21",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2516,
+        "SHARE": 262,
+        "COMMENTS": 163,
+        "ENGAGEMENT": 2941
+    },
+    {
+        "ID": "50e97352-c630-4d90-8fe0-d4d86a408aad",
+        "DATE": "2024-08-29",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 2989,
+        "SHARE": 389,
+        "COMMENTS": 286,
+        "ENGAGEMENT": 3664
+    },
+    {
+        "ID": "97f11b52-1771-47ae-85bc-bc23e8ad42b5",
+        "DATE": "2024-12-01",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2773,
+        "SHARE": 565,
+        "COMMENTS": 381,
+        "ENGAGEMENT": 3719
+    },
+    {
+        "ID": "5a638f31-6b1f-47f7-ad94-f1f1ad7ca37f",
+        "DATE": "2024-05-28",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 407,
+        "SHARE": 770,
+        "COMMENTS": 375,
+        "ENGAGEMENT": 1552
+    },
+    {
+        "ID": "57a68420-afb8-411a-97ad-92dfdc11f066",
+        "DATE": "2024-03-04",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 137,
+        "SHARE": 877,
+        "COMMENTS": 177,
+        "ENGAGEMENT": 1191
+    },
+    {
+        "ID": "af0c40f5-1ecd-46d6-8579-11fd692a194f",
+        "DATE": "2024-08-26",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 589,
+        "SHARE": 916,
+        "COMMENTS": 103,
+        "ENGAGEMENT": 1608
+    },
+    {
+        "ID": "25dff378-c48e-40a0-83e7-f35d1ed9ff17",
+        "DATE": "2024-12-02",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1438,
+        "SHARE": 59,
+        "COMMENTS": 438,
+        "ENGAGEMENT": 1935
+    },
+    {
+        "ID": "dbf32ebb-0343-4f7b-a0fb-8ecc8f1d553e",
+        "DATE": "2024-12-11",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 208,
+        "SHARE": 181,
+        "COMMENTS": 308,
+        "ENGAGEMENT": 697
+    },
+    {
+        "ID": "a326cbff-928b-455b-9435-f732500fdf23",
+        "DATE": "2024-03-05",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4064,
+        "SHARE": 921,
+        "COMMENTS": 46,
+        "ENGAGEMENT": 5031
+    },
+    {
+        "ID": "d5c3a6d7-a0f1-49f9-bdd4-b3cef780e721",
+        "DATE": "2024-05-18",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 118,
+        "SHARE": 927,
+        "COMMENTS": 458,
+        "ENGAGEMENT": 1503
+    },
+    {
+        "ID": "ff1cf69a-f62a-43e4-96a8-8d4e38590d8d",
+        "DATE": "2024-12-17",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1431,
+        "SHARE": 590,
+        "COMMENTS": 455,
+        "ENGAGEMENT": 2476
+    },
+    {
+        "ID": "90c23050-fb70-4321-9332-cbce8230a7d0",
+        "DATE": "2024-11-02",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 3781,
+        "SHARE": 345,
+        "COMMENTS": 156,
+        "ENGAGEMENT": 4282
+    },
+    {
+        "ID": "e660274d-63c1-4cbc-9626-4682f5a8826a",
+        "DATE": "2024-02-11",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 384,
+        "SHARE": 531,
+        "COMMENTS": 490,
+        "ENGAGEMENT": 1405
+    },
+    {
+        "ID": "71d7b9a1-5cb6-4c93-b894-489e6d1a1a85",
+        "DATE": "2024-08-03",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 441,
+        "SHARE": 6,
+        "COMMENTS": 120,
+        "ENGAGEMENT": 567
+    },
+    {
+        "ID": "874d8d7a-68c0-4bb4-b0a9-2dd9eb9e2a24",
+        "DATE": "2024-05-18",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 60,
+        "SHARE": 301,
+        "COMMENTS": 291,
+        "ENGAGEMENT": 652
+    },
+    {
+        "ID": "25574d6c-17c3-450e-b3d7-6176cbfb554b",
+        "DATE": "2024-02-26",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 610,
+        "SHARE": 739,
+        "COMMENTS": 397,
+        "ENGAGEMENT": 1746
+    },
+    {
+        "ID": "a5863618-48a4-44c1-85ef-8689f15e110e",
+        "DATE": "2024-01-22",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 1105,
+        "SHARE": 445,
+        "COMMENTS": 392,
+        "ENGAGEMENT": 1942
+    },
+    {
+        "ID": "d2085baa-ddc6-416f-92da-17a4ca0c17cd",
+        "DATE": "2024-10-06",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 43,
+        "SHARE": 790,
+        "COMMENTS": 396,
+        "ENGAGEMENT": 1229
+    },
+    {
+        "ID": "2076c883-b7a6-4c28-a011-72cfa7068576",
+        "DATE": "2024-12-09",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2636,
+        "SHARE": 359,
+        "COMMENTS": 184,
+        "ENGAGEMENT": 3179
+    },
+    {
+        "ID": "1fc5ae47-f0d0-4bee-85db-b7506141dbcd",
+        "DATE": "2024-02-11",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4993,
+        "SHARE": 239,
+        "COMMENTS": 399,
+        "ENGAGEMENT": 5631
+    },
+    {
+        "ID": "6a45b688-5145-4044-8464-e6e1ef6b20a9",
+        "DATE": "2024-12-14",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 3709,
+        "SHARE": 13,
+        "COMMENTS": 34,
+        "ENGAGEMENT": 3756
+    },
+    {
+        "ID": "86c1485a-87e5-486c-8a41-d48c7a9f5418",
+        "DATE": "2024-01-07",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 3601,
+        "SHARE": 818,
+        "COMMENTS": 390,
+        "ENGAGEMENT": 4809
+    },
+    {
+        "ID": "120cf9ec-4a7c-489a-b976-f2e77df3dca8",
+        "DATE": "2024-08-05",
+        "MEDIA TYPE": "VIDEO",
+        "LIKES": 2738,
+        "SHARE": 25,
+        "COMMENTS": 346,
+        "ENGAGEMENT": 3109
+    },
+    {
+        "ID": "c55f5715-5474-434b-827c-7bff706c68fa",
+        "DATE": "2024-10-25",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 924,
+        "SHARE": 353,
+        "COMMENTS": 22,
+        "ENGAGEMENT": 1299
+    },
+    {
+        "ID": "34e7beb9-3152-4ed6-a26e-861cc0e968f4",
+        "DATE": "2024-03-28",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 4522,
+        "SHARE": 758,
+        "COMMENTS": 119,
+        "ENGAGEMENT": 5399
+    },
+    {
+        "ID": "db99369e-7ef2-41a1-a4b8-53561e3afec7",
+        "DATE": "2024-12-12",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 4809,
+        "SHARE": 401,
+        "COMMENTS": 399,
+        "ENGAGEMENT": 5609
+    },
+    {
+        "ID": "915a4b95-4a9d-45b4-a024-7c8510845241",
+        "DATE": "2024-02-13",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 2614,
+        "SHARE": 157,
+        "COMMENTS": 57,
+        "ENGAGEMENT": 2828
+    },
+    {
+        "ID": "c29e88d5-b3e9-47b6-a8ab-f265fc15a025",
+        "DATE": "2024-09-13",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 510,
+        "SHARE": 173,
+        "COMMENTS": 92,
+        "ENGAGEMENT": 775
+    },
+    {
+        "ID": "aad68dfe-d36b-420f-8cf4-6b599c3e1dfc",
+        "DATE": "2024-05-30",
+        "MEDIA TYPE": "TEXT",
+        "LIKES": 614,
+        "SHARE": 929,
+        "COMMENTS": 215,
+        "ENGAGEMENT": 1758
+    },
+    {
+        "ID": "253e13f7-6809-4073-ad28-aafabfcaf330",
+        "DATE": "2024-04-18",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 4323,
+        "SHARE": 702,
+        "COMMENTS": 153,
+        "ENGAGEMENT": 5178
+    },
+    {
+        "ID": "262a45b7-1172-419b-a655-c934bb6a496d",
+        "DATE": "2024-03-11",
+        "MEDIA TYPE": "REELS",
+        "LIKES": 1318,
+        "SHARE": 586,
+        "COMMENTS": 418,
+        "ENGAGEMENT": 2322
+    },
+    {
+        "ID": "9a49db63-f669-4861-ad03-c7e2618a15f7",
+        "DATE": "2024-02-20",
+        "MEDIA TYPE": "STATIC_POST",
+        "LIKES": 1047,
+        "SHARE": 132,
+        "COMMENTS": 418,
+        "ENGAGEMENT": 1597
+    }
+]
