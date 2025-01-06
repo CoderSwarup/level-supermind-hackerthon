@@ -7,19 +7,19 @@ from datetime import datetime, timedelta
 
 platforms = {
     "YOUTUBE": {
-        "columns": ["ID", "DATE", "MEDIA TYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"],
+        "columns": ["ID", "DATE", "MEDIATYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"],
         "media_types": ["REELS", "VIDEO", "STATIC_POST", "TEXT"],
     },
     "INSTAGRAM": {
-        "columns": ["ID", "DATE", "MEDIA TYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"],
+        "columns": ["ID", "DATE", "MEDIATYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"],
         "media_types": ["REELS", "VIDEO", "STATIC_POST", "CAROUSEL"],
     },
     "TWITTER": {
-        "columns": ["ID", "DATE", "MEDIA TYPE", "LIKES", "SHARE", "COMMENTS", "REPOST", "ENGAGEMENT"],
+        "columns": ["ID", "DATE", "MEDIATYPE", "LIKES", "SHARE", "COMMENTS", "REPOST", "ENGAGEMENT"],
         "media_types": ["TEXT", "VIDEO", "STATIC_POST"],
     },
     "LINKEDIN": {
-        "columns": ["ID", "DATE", "MEDIA TYPE", "LIKES", "SHARE", "COMMENTS", "REPOST", "ENGAGEMENT"],
+        "columns": ["ID", "DATE", "MEDIATYPE", "LIKES", "SHARE", "COMMENTS", "REPOST", "ENGAGEMENT"],
         "media_types": ["STATIC_POST", "REELS", "TEXT"],
     },
 }
@@ -60,7 +60,7 @@ def save_data_to_files(platform, data, columns):
     print(f"Data saved for {platform}: {csv_file}, {json_file}")
 
 def combine_data(all_data):
-    combined_columns = ["ID", "PLATFORM", "DATE", "MEDIA TYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"]
+    combined_columns = ["ID", "PLATFORM", "DATE", "MEDIATYPE", "LIKES", "SHARE", "COMMENTS", "ENGAGEMENT"]
     combined_data = []
     for platform, data in all_data.items():
         for row in data:
