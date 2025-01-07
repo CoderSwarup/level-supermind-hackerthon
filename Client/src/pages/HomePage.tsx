@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { DateRange } from "react-day-picker";
-import { Platform, sampleData } from "@/data/sampleData";
+import { sampleData } from "@/data/sampleData";
 import { DateRangePicker } from "@/components/DateRangePicker";
 import { EngagementChart } from "@/components/charts/EngagementChart";
 import { PlatformComparison } from "@/components/charts/PlatformComparison";
 import { StatsCards } from "@/components/stats/StatsCards";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { GrowthAnalysisChart } from "@/components/charts/GrowthAnalysisChart";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { DataTable } from "@/components/DataTabel";
 export function HomePage() {
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
-  const [selectedPlatform, setSelectedPlatform] =
-    useState<Platform>("INSTAGRAM");
 
   const filteredData = sampleData.filter((item) => {
     if (dateRange?.from && dateRange?.to) {
@@ -18,10 +19,6 @@ export function HomePage() {
     }
     return true;
   });
-
-  const platformData = filteredData.filter(
-    (item) => item.PLATFORM === selectedPlatform
-  );
 
   return (
     <div className=" w-full py-8">
@@ -41,10 +38,18 @@ export function HomePage() {
         <StatsCards data={filteredData} />
       </div>
 
-      <div className="mt-8 grid gap-4 md:grid-cols-3">
-        <EngagementChart data={filteredData} />
-        <PlatformComparison data={filteredData} />
-      </div>
+      <EngagementChart data={filteredData} />
+      <GrowthAnalysisChart data={sampleData} />
+      <PlatformComparison data={filteredData} />
+
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle>Detailed Data View</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <DataTable data={filteredData} />
+        </CardContent>
+      </Card>
     </div>
   );
 }

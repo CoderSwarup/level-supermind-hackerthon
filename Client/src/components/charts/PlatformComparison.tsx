@@ -7,9 +7,9 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-} from 'recharts';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ChartProps, ComparisonDataPoint } from './types';
+} from "recharts";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ChartProps, ComparisonDataPoint } from "./types";
 
 export function PlatformComparison({ data }: ChartProps) {
   const comparisonData = data.reduce<ComparisonDataPoint[]>((acc, curr) => {
@@ -54,18 +54,28 @@ export function PlatformComparison({ data }: ChartProps) {
                 tickMargin={10}
                 padding={{ top: 20, bottom: 20 }}
               />
-              <Tooltip />
+              <Tooltip
+                cursor={{ strokeDasharray: "3 3" }}
+                content={({ payload }) => {
+                  if (!payload || payload.length === 0) return null;
+                  console.log(payload);
+
+                  return (
+                    <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 p-2 rounded-lg shadow border dark:border-gray-700">
+                      {payload.map((entry, index) => (
+                        <div key={index} className={`mb-2 last:mb-0 `}>
+                          <p className={`font-semibol `}>
+                            {entry.name} {entry?.value?.toLocaleString()}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                }}
+              />
               <Legend />
-              <Bar
-                dataKey="likes"
-                name="Likes"
-                fill="hsl(var(--chart-1))"
-              />
-              <Bar
-                dataKey="shares"
-                name="Shares"
-                fill="hsl(var(--chart-2))"
-              />
+              <Bar dataKey="likes" name="Likes" fill="hsl(var(--chart-1))" />
+              <Bar dataKey="shares" name="Shares" fill="hsl(var(--chart-2))" />
               <Bar
                 dataKey="comments"
                 name="Comments"

@@ -9,10 +9,41 @@ import {
 } from "recharts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChartDataPoint, ChartProps } from "./types";
+import { TooltipProps } from "recharts";
+import {
+  NameType,
+  ValueType,
+} from "recharts/types/component/DefaultTooltipContent";
 
+const CustomTooltip = ({
+  active,
+  payload,
+  label,
+}: TooltipProps<ValueType, NameType>) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="custom-tooltip bg-gray-200  dark:bg-black">
+        <p className="label">{`${label} : ${payload[0].value}`}</p>
+        <div>
+          {payload.map((pld) => (
+            <div
+              className="font-bold"
+              style={{ display: "inline-block", padding: 10 }}
+            >
+              <div style={{ color: pld.color }}>{pld.value}</div>
+              <div className="text-gray drak:text-white font-semibold">
+                {pld.dataKey}{" "}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+};
 export function EngagementChart({ data }: ChartProps) {
-  console.log(data);
-
   const chartData = data.reduce<ChartDataPoint[]>((acc, curr) => {
     const existingDate = acc.find((item) => item.date === curr.DATE);
     if (existingDate) {
@@ -99,7 +130,7 @@ export function EngagementChart({ data }: ChartProps) {
                 tickMargin={10}
                 padding={{ top: 20, bottom: 20 }}
               />
-              <Tooltip />
+              <Tooltip content={<CustomTooltip />} />
               <Area
                 type="monotone"
                 dataKey="YOUTUBE"

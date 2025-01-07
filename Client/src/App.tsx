@@ -1,6 +1,8 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { DashboardLayout } from './components/layout/DashboardLayout';
-import { HomePage } from './pages/HomePage';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { DashboardLayout } from "./components/layout/DashboardLayout";
+import { HomePage } from "./pages/HomePage";
+import PlatformSpecificData from "./pages/PlatformSpecificData";
+import { Chat } from "./pages/Chat";
 
 export default function App() {
   return (
@@ -8,11 +10,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<DashboardLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="youtube" element={<div>YouTube Analytics</div>} />
-          <Route path="instagram" element={<div>Instagram Analytics</div>} />
-          <Route path="twitter" element={<div>Twitter Analytics</div>} />
-          <Route path="linkedin" element={<div>LinkedIn Analytics</div>} />
-          <Route path="chat" element={<div>Chat</div>} />
+          <Route path="platform-specific" element={<PlatformSpecificData />} />
+          <Route path="chat" element={<Chat />} />
         </Route>
       </Routes>
     </BrowserRouter>

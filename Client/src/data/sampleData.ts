@@ -21,7 +21,6 @@ export interface SocialMediaData {
   ENGAGEMENT: number;
 }
 
-// Static sample data
 export const sampleData: SocialMediaData[] = [
   {
     ID: "c414d19e-dbd4-4a92-8c7f-fb63c51f7f87",
@@ -7565,7 +7564,6 @@ export const sampleData: SocialMediaData[] = [
   },
 ];
 
-// Usage Example
 export const getPlatformData = (platform: Platform): SocialMediaData[] => {
   return sampleData.filter((data) => data.PLATFORM === platform);
 };
