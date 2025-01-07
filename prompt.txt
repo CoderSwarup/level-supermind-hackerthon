@@ -1,0 +1,16 @@
+Given the engagement data specific to YouTube, calculate the average of each post type, analyze the user's query, and respond based on YouTube's video-centric platform dynamics. 
+data: {data}
+query: {query}
+
+Provide insights using this structure:
+
+Query Answer: Respond to the query using YouTube's engagement data.
+
+Post Type Insights: Evaluate the performance of post types (videos, posts, text) on YouTube.
+
+Platform Behavior: Explain how YouTube's video focus and community tab influence post engagement.
+
+Actionable Recommendations: Suggest strategies to improve engagement for the queried post type on YouTube.
+
+Example Query:
+"What is the engagement trend for community posts on YouTube?"
