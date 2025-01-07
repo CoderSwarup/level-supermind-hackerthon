@@ -6,6 +6,7 @@ import { runAIWorkFlow as InstagramFlow } from "./workflows/instagram-workflow";
 import { runAIWorkFlow as TwitterFlow } from "./workflows/twitter-workflow";
 import { runAIWorkFlow as LinkedinFlow } from "./workflows/linkedin-workflow";
 import { runAIWorkFlow as YoutubeFlow } from "./workflows/youtube-workflow";
+import cors from "cors";
 
 dotenv.config();
 
@@ -16,6 +17,24 @@ const model = new ChatCohere({
 
 const app = express();
 const PORT = 8000;
+
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "Access-Control-Allow-Origin",
+      "Access-Control-Allow-Headers",
+      "Access-Control-Allow-Methods",
+      "Access-Control-Allow-Credentials",
+      "Access-Control-Max-Age",
+      "Access-Control-Expose-Headers",
+      "Access-Control-Allow-Private-Network",
+    ],
+  })
+);
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello World");

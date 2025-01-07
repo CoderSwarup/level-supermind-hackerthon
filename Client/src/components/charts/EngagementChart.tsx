@@ -14,6 +14,7 @@ import {
   NameType,
   ValueType,
 } from "recharts/types/component/DefaultTooltipContent";
+import { format } from "date-fns";
 
 const CustomTooltip = ({
   active,
@@ -22,17 +23,28 @@ const CustomTooltip = ({
 }: TooltipProps<ValueType, NameType>) => {
   if (active && payload && payload.length) {
     return (
-      <div className="custom-tooltip bg-gray-200  dark:bg-black">
-        <p className="label">{`${label} : ${payload[0].value}`}</p>
+      <div className="p-2 overflow-hidden border rounded-sm shadow-sm bg-background">
+        <div className="p-2 px-3 text-sm bg-muted text-muted-foreground">
+          {`${format(label, "MMM dd, yyyy")} : ${payload[0].value}`}
+        </div>
+        <hr className="mx-2" />
         <div>
           {payload.map((pld) => (
-            <div
-              className="font-bold"
-              style={{ display: "inline-block", padding: 10 }}
-            >
-              <div style={{ color: pld.color }}>{pld.value}</div>
-              <div className="text-gray drak:text-white font-semibold">
-                {pld.dataKey}{" "}
+            <div className="p-2 px-3 space-y-1">
+              <div className="flex items-center justify-between gap-x-4">
+                <div className="flex items-center gap-2">
+                  <div
+                    className="size-1.5 rounded-full"
+                    style={{ background: pld.color }}
+                  />
+                  <p className="text-sm text-muted-foreground">{pld.dataKey}</p>
+                </div>
+                <p
+                  className="text-sm font-medium text-right"
+                  style={{ color: pld.color }}
+                >
+                  {pld.value}
+                </p>
               </div>
             </div>
           ))}

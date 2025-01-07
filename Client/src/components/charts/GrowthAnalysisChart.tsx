@@ -10,6 +10,7 @@ import {
 } from "recharts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SocialMediaData, Platform } from "@/data/sampleData";
+import { format } from "date-fns";
 
 interface Props {
   data: SocialMediaData[];
@@ -18,13 +19,12 @@ interface Props {
 export function GrowthAnalysisChart({ data }: Props) {
   const platforms: Platform[] = ["YOUTUBE", "INSTAGRAM", "TWITTER", "LINKEDIN"];
   const colors = {
-    YOUTUBE: "#FF0000",
-    INSTAGRAM: "#E1306C",
-    TWITTER: "#1DA1F2",
-    LINKEDIN: "#0077B5",
+    YOUTUBE: "hsl(var(--chart-1))",
+    INSTAGRAM: "hsl(var(--chart-5))",
+    TWITTER: "hsl(var(--chart-3))",
+    LINKEDIN: "hsl(var(--chart-4))",
   };
 
-  // Calculate cumulative engagement by platform
   const growthData = data
     .reduce((acc: any[], item) => {
       const date = item.DATE;
@@ -64,14 +64,31 @@ export function GrowthAnalysisChart({ data }: Props) {
                 content={({ payload, label }) => {
                   if (!payload?.length) return null;
                   return (
-                    <div className="bg-background p-2 rounded-lg shadow border">
-                      <p className="font-semibold">
-                        {new Date(label).toLocaleDateString()}
-                      </p>
-                      {payload.map((entry) => (
-                        <p key={entry.name} style={{ color: entry.color }}>
-                          {entry.name}: {entry?.value?.toLocaleString()}
-                        </p>
+                    <div className="p-2 overflow-hidden border rounded-sm shadow-sm bg-background">
+                      <div className="p-2 px-3 text-sm bg-muted text-muted-foreground">
+                        {format(label, "MMM dd, yyyy")}
+                      </div>
+                      <hr className="mx-2" />
+                      {payload.map((entry, idx) => (
+                        <div key={idx} className="p-2 px-3 space-y-1">
+                          <div className="flex items-center justify-between gap-x-4">
+                            <div className="flex items-center gap-2">
+                              <div
+                                className="size-1.5 rounded-full"
+                                style={{ backgroundColor: entry.color }}
+                              />
+                              <p className="text-sm text-muted-foreground">
+                                {entry.name}
+                              </p>
+                            </div>
+                            <p
+                              className="text-sm font-medium text-right"
+                              style={{ color: entry.color }}
+                            >
+                              {entry.value}
+                            </p>
+                          </div>
+                        </div>
                       ))}
                     </div>
                   );

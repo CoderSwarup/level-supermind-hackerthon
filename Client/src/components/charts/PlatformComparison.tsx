@@ -40,7 +40,7 @@ export function PlatformComparison({ data }: ChartProps) {
         <div className="h-[400px]">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={comparisonData}>
-              <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+              <CartesianGrid strokeDasharray="3 3" className="stroke-" />
               <XAxis
                 dataKey="platform"
                 stroke="hsl(var(--muted-foreground))"
@@ -58,28 +58,44 @@ export function PlatformComparison({ data }: ChartProps) {
                 cursor={{ strokeDasharray: "3 3" }}
                 content={({ payload }) => {
                   if (!payload || payload.length === 0) return null;
-                  console.log(payload);
 
                   return (
-                    <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 p-2 rounded-lg shadow border dark:border-gray-700">
-                      {payload.map((entry, index) => (
-                        <div key={index} className={`mb-2 last:mb-0 `}>
-                          <p className={`font-semibol `}>
-                            {entry.name} {entry?.value?.toLocaleString()}
-                          </p>
-                        </div>
-                      ))}
+                    <div className="p-2 overflow-hidden border rounded-sm shadow-sm bg-background">
+                      <div className="p-2 px-3 space-y-1">
+                        {payload.map((entry, index) => (
+                          <div
+                            key={index}
+                            className="flex items-center justify-between gap-x-4"
+                          >
+                            <div className="flex items-center gap-2">
+                              <div
+                                className="size-1.5 rounded-full"
+                                style={{ background: entry.color }}
+                              />
+                              <p className="text-sm text-muted-foreground">
+                                {entry.name}
+                              </p>
+                            </div>
+                            <p
+                              className="text-sm font-medium text-right"
+                              style={{ color: entry.color }}
+                            >
+                              {entry.value}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   );
                 }}
               />
               <Legend />
-              <Bar dataKey="likes" name="Likes" fill="hsl(var(--chart-1))" />
-              <Bar dataKey="shares" name="Shares" fill="hsl(var(--chart-2))" />
+              <Bar dataKey="likes" name="Likes" fill="hsl(var(--chart-5))" />
+              <Bar dataKey="shares" name="Shares" fill="hsl(var(--chart-1))" />
               <Bar
                 dataKey="comments"
                 name="Comments"
-                fill="hsl(var(--chart-3))"
+                fill="hsl(var(--chart-2))"
               />
             </BarChart>
           </ResponsiveContainer>

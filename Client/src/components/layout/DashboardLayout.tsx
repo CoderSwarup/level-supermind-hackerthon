@@ -5,9 +5,9 @@ import { Sidebar } from "./Sidebar";
 export function DashboardLayout() {
   return (
     <ThemeProvider defaultTheme="dark">
-      <div className="w-screen flex h-screen bg-background">
+      <div className="flex w-screen h-screen">
         <Sidebar />
-        <main className="w-full overflow-y-auto px-2">
+        <main className="w-full px-4 overflow-y-auto">
           <Outlet />
         </main>
       </div>

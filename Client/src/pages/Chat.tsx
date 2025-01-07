@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import axios from "axios";
 import { Input } from "@/components/ui/input";
+import { Send, Bot, User } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useState, useRef, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Send, Bot, User } from "lucide-react";
 
 interface Message {
   id: string;
@@ -22,8 +23,9 @@ export function Chat() {
     },
   ]);
   const [input, setInput] = useState("");
+  const scrollAreaRef = useRef<HTMLDivElement>(null);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!input.trim()) return;
 
     const userMessage: Message = {
@@ -36,25 +38,46 @@ export function Chat() {
     setMessages((prev) => [...prev, userMessage]);
     setInput("");
 
-    // Simulate bot response
-    setTimeout(() => {
+    try {
+      const response = await axios.get("http://localhost:8000/run", {
+        params: { query: input },
+      });
+
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        content: "Thanks for your message! I'm a demo bot.",
+        content: response.data.response || "Sorry, I couldn't understand that.",
         sender: "bot",
         timestamp: new Date(),
       };
+
+      // botMessage.content.replace("*", "\n");
+
       setMessages((prev) => [...prev, botMessage]);
-    }, 1000);
+    } catch (error) {
+      console.error("Error fetching bot response:", error);
+      const botErrorMessage: Message = {
+        id: (Date.now() + 2).toString(),
+        content: "Sorry, there was an error processing your request.",
+        sender: "bot",
+        timestamp: new Date(),
+      };
+      setMessages((prev) => [...prev, botErrorMessage]);
+    }
   };
 
+  useEffect(() => {
+    if (scrollAreaRef.current) {
+      scrollAreaRef.current.scrollTop = scrollAreaRef.current.scrollHeight;
+    }
+  }, [messages]);
+
   return (
-    <div className="flex h-screen flex-col bg-background">
-      <div className="border-b p-4">
+    <div className="flex flex-col h-screen bg-background">
+      <div className="p-4 border-b">
         <h1 className="text-2xl font-bold">Chat Assistant</h1>
       </div>
 
-      <ScrollArea className="flex-1 p-4">
+      <ScrollArea ref={scrollAreaRef} className="flex-1 p-4">
         <div className="space-y-4">
           {messages.map((message) => (
             <div
@@ -63,24 +86,24 @@ export function Chat() {
                 message.sender === "user" ? "flex-row-reverse" : ""
               }`}
             >
-              <Avatar className="h-8 w-8">
+              <Avatar className="w-8 h-8">
                 <AvatarFallback>
                   {message.sender === "user" ? (
-                    <User className="h-4 w-4" />
+                    <User className="w-4 h-4" />
                   ) : (
-                    <Bot className="h-4 w-4" />
+                    <Bot className="w-4 h-4" />
                   )}
                 </AvatarFallback>
               </Avatar>
               <div
                 className={`rounded-lg p-3 max-w-[80%] ${
                   message.sender === "user"
-                    ? "bg-primary text-primary-foreground"
+                    ? "bg-secondary text-secondary-foreground"
                     : "bg-muted"
                 }`}
               >
                 <p className="text-sm">{message.content}</p>
-                <span className="text-xs opacity-50 mt-1 block">
+                <span className="block mt-1 text-xs opacity-50">
                   {message.timestamp.toLocaleTimeString()}
                 </span>
               </div>
@@ -89,7 +112,7 @@ export function Chat() {
         </div>
       </ScrollArea>
 
-      <div className="border-t p-4">
+      <div className="p-4 border-t">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -104,7 +127,7 @@ export function Chat() {
             className="flex-1"
           />
           <Button type="submit" size="icon">
-            <Send className="h-4 w-4" />
+            <Send className="w-4 h-4" />
           </Button>
         </form>
       </div>

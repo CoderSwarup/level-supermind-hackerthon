@@ -21,26 +21,27 @@ export function HomePage() {
   });
 
   return (
-    <div className=" w-full py-8">
-      <div className="mb-8 flex items-center justify-between">
-        <h1 className="text-3xl font-bold">Social Media Analytics</h1>
+    <div className="w-full py-8">
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-3xl font-semibold">Social Media Analytics</h1>
         <ThemeToggle />
       </div>
 
-      <div className="mb-8 flex items-center gap-4">
+      <div className="flex items-center gap-4 mb-4">
         <DateRangePicker
           dateRange={dateRange}
           onDateRangeChange={setDateRange}
         />
       </div>
 
-      <div className="grid gap-4 md:grid-cols-4">
+      <div className="grid gap-4 mb-4 md:grid-cols-4">
         <StatsCards data={filteredData} />
       </div>
-
-      <EngagementChart data={filteredData} />
-      <GrowthAnalysisChart data={sampleData} />
-      <PlatformComparison data={filteredData} />
+      <div className="space-y-4">
+        <EngagementChart data={filteredData} />
+        <GrowthAnalysisChart data={sampleData} />
+        <PlatformComparison data={filteredData} />
+      </div>
 
       <Card className="mb-8">
         <CardHeader>
