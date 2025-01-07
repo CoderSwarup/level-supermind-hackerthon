@@ -23,6 +23,7 @@ export function Chat() {
     },
   ]);
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   const scrollAreaRef = useRef<HTMLDivElement>(null);
 
   const handleSend = async () => {
@@ -37,11 +38,15 @@ export function Chat() {
 
     setMessages((prev) => [...prev, userMessage]);
     setInput("");
+    setIsLoading(true); // Start loading
 
     try {
-      const response = await axios.get("http://localhost:8000/run", {
-        params: { query: input },
-      });
+      const response = await axios.get(
+        `${import.meta.env.VITE_BACKEND_URL}/run`,
+        {
+          params: { query: input },
+        }
+      );
 
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -49,8 +54,6 @@ export function Chat() {
         sender: "bot",
         timestamp: new Date(),
       };
-
-      // botMessage.content.replace("*", "\n");
 
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
@@ -62,9 +65,17 @@ export function Chat() {
         timestamp: new Date(),
       };
       setMessages((prev) => [...prev, botErrorMessage]);
+    } finally {
+      setIsLoading(false); // Stop loading
     }
   };
-
+  const formatMessageContent = (content: string) => {
+    return content.split("\n").map((line, index) => (
+      <p key={index} className="text-sm">
+        {line}
+      </p>
+    ));
+  };
   useEffect(() => {
     if (scrollAreaRef.current) {
       scrollAreaRef.current.scrollTop = scrollAreaRef.current.scrollHeight;
@@ -102,13 +113,29 @@ export function Chat() {
                     : "bg-muted"
                 }`}
               >
-                <p className="text-sm">{message.content}</p>
+                <p className="text-sm">
+                  {" "}
+                  {formatMessageContent(message.content)}
+                </p>
                 <span className="block mt-1 text-xs opacity-50">
                   {message.timestamp.toLocaleTimeString()}
                 </span>
               </div>
             </div>
           ))}
+
+          {isLoading && (
+            <div className="flex items-start gap-3">
+              <Avatar className="w-8 h-8">
+                <AvatarFallback>
+                  <Bot className="w-4 h-4" />
+                </AvatarFallback>
+              </Avatar>
+              <div className="rounded-lg p-3 max-w-[80%] bg-muted">
+                <p className="text-sm">Bot typing...</p>
+              </div>
+            </div>
+          )}
         </div>
       </ScrollArea>
 
@@ -125,9 +152,15 @@ export function Chat() {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Type your message..."
             className="flex-1"
+            disabled={isLoading}
           />
-          <Button type="submit" size="icon">
-            <Send className="w-4 h-4" />
+          <Button
+            type="submit"
+            size="icon"
+            className="dark:bg-gray-600 dark:text-white font-bold p-4 w-[100px]"
+            disabled={isLoading}
+          >
+            SEND
           </Button>
         </form>
       </div>

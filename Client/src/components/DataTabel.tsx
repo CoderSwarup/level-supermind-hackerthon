@@ -146,7 +146,7 @@ export function DataTable({ data }: DataTableProps) {
         </Table>
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-3 overflow-x-scroll">
         <p className="text-sm text-muted-foreground">
           Showing {startIndex + 1} to{" "}
           {Math.min(startIndex + pageSize, filteredData.length)} of{" "}

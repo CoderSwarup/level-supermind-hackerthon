@@ -61,16 +61,16 @@ export function Sidebar() {
   return (
     <>
       {/* Mobile Sidebar */}
-      <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger asChild className="lg:hidden">
-          <Button variant="outline" size="icon" className="lg:hidden">
-            <Menu className="w-6 h-6" />
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="left" className="p-0 w-[200px]">
-          <SidebarContent />
-        </SheetContent>
-      </Sheet>
+      <div className="fixed top-1 left-1">
+        <Sheet open={open} onOpenChange={setOpen}>
+          <SheetTrigger asChild className="lg:hidden">
+            <img src="./menu-bar.png" className="w-[25px] h-[25px]" alt="" />
+          </SheetTrigger>
+          <SheetContent side="left" className="p-0 w-[200px]">
+            <SidebarContent />
+          </SheetContent>
+        </Sheet>
+      </div>
 
       <div className="hidden lg:block">
         <div className="w-[200px] px-1 border-r bg-background h-screen">
