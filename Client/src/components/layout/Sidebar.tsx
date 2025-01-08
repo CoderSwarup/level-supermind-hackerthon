@@ -7,17 +7,17 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 const routes = [
   {
-    path: "/",
+    path: "/dashboard",
     label: "Home",
     icon: Home,
   },
   {
-    path: "/platform-specific",
+    path: "/dashboard/platform-specific",
     label: "Platform Wise",
     icon: ChartLine,
   },
   {
-    path: "/chat",
+    path: "/dashboard/chat",
     label: "Chat",
     icon: MessageCircle,
   },
@@ -34,7 +34,7 @@ function SidebarContent({ className }: SidebarContentProps) {
     <div className={cn("space-y-4 py-4 px-4", className)}>
       <div className="py-2">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold">Dashboard</h2>
+          <h2 className="text-lg font-semibold">SocioMetrics</h2>
         </div>
         <div className="space-y-4">
           {routes.map((route) => (

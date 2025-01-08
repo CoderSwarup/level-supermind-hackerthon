@@ -157,3 +157,19 @@ button:focus-visible {
 *::-webkit-scrollbar-thumb:hover {
   border: 1px solid gray;
 }
+.child {
+  position: relative;
+  transition: transform 0.1s ease;
+}
+
+.child::before {
+  content: "";
+  position: absolute;
+  top: var(--mouse-y);
+  left: var(--mouse-x);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%);
+}

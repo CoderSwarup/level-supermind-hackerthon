@@ -1,5 +1,7 @@
 # 📊 Social Media Performance Analysis
 
+# SocioMetrics
+
 Analyze social media engagement metrics with this powerful tool! This project uses cutting-edge technologies to provide deep insights into post performance across platforms like Instagram, Twitter, LinkedIn, and YouTube. Compare post types, identify trends, and make data-driven decisions to boost engagement! 🚀
 
 ## 🛠️ Tech Stack
@@ -47,27 +49,30 @@ Analyze social media engagement metrics with this powerful tool! This project us
 ## ⚙️ Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-username/social-media-performance-analysis.git
+   git clone https://github.com/CoderSwarup/level-supermind-hackerthon.git
    ```
 
 2. Install dependencies for both frontend and backend:
+
    ```bash
-   cd frontend
+   cd Client
    npm install
-   
-   cd ../backend
+
+   cd server
    npm install
    ```
 
 3. Set up environment variables for Astra DB and Langflow API keys.
 
 4. Start the development servers:
+
    ```bash
-   cd frontend
+   # Client
    npm run dev
-   
-   cd ../backend
+
+   # server
    npm start
    ```
 
@@ -84,10 +89,17 @@ Analyze social media engagement metrics with this powerful tool! This project us
 3. **Analyze Trends** 📈
    - Leverage data visualizations to understand engagement trends.
 
-
 ## 📹 Demo
 
 Watch the demo video here: [YouTube Demo Link](#) 🎥
+
+## Client ScreenShot
+
+![Img1](img/1_dash_1.png)
+
+![Img2](img/2_dash_2.png)
+
+![Img3](img/3_Dash_chat.png)
 
 ## 🤝 Contribution
 
@@ -110,8 +122,6 @@ Watch the demo video here: [YouTube Demo Link](#) 🎥
 
 This project is licensed under the MIT License. 📝
 
-
 ## 💬 Feedback
 
 We'd love to hear your thoughts! Please open an issue or reach out to us. 💌
-
